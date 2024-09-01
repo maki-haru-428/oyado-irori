@@ -1,0 +1,65 @@
+* {
+  /* border: 1px solid blue; */
+}
+
+html {
+  background-color: #fffaf7;
+}
+
+.midashi {
+  margin-top: 100px;
+}
+
+.link-sub {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+/* ナビの点の位置（アクセス） */
+.here::before {
+  position: absolute;
+  right: 80px;
+  top: 55px;
+}
+
+/* アクセスページ */
+.access-map {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.access-map p {
+  margin-top: 10px;
+  font-size: 1.6rem;
+  text-align: left;
+}
+
+.access-method {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.access-method table {
+  margin: 0 auto;
+  border-spacing: 8rem 4rem;
+}
+
+.access-method th {
+  font-size: 2rem;
+}
+
+.access-method td {
+  font-size: 1.6rem;
+}
+
+.table-border {
+  display: block;
+  content: "";
+  width: 70%;
+  height: 2px;
+  margin: 0 auto;
+  border-radius: 2px;
+  background-color: #ead7be;
+}

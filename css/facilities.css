@@ -1,0 +1,69 @@
+* {
+  /* border: 1px solid blue; */
+}
+
+html {
+  background-color: #fffaf7;
+}
+
+.midashi {
+  margin-top: 100px;
+}
+
+.link-sub {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+/* ナビの点の位置（館内施設） */
+.here::before {
+  position: absolute;
+  right: 192px;
+  top: 55px;
+}
+
+/* 館内施設ページ */
+.facilities-container {
+  display: flex;
+  margin-bottom: 100px;
+  text-align: left;
+  justify-content: center;
+}
+
+.facilities-img {
+  width: 540px;
+}
+
+.facilities-01,
+.facilities-03 {
+  margin-right: 75px;
+}
+
+.facilities-02,
+.facilities-04 {
+  margin-left: 75px;
+}
+
+.facilities-contents {
+  align-self: center;
+}
+
+.facilities-contents h3 {
+  margin-bottom: 25px;
+}
+
+.facilities-contents p {
+  display: block;
+  width: 450px;
+  line-height: 2.5;
+}
+
+.facilities-01 .facilities-contents,
+.facilities-03 .facilities-contents {
+  margin-left: 50px;
+}
+
+.facilities-02 .facilities-contents,
+.facilities-04 .facilities-contents {
+  margin-right: 50px;
+}

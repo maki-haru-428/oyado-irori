@@ -1,0 +1,66 @@
+* {
+  /* border: 1px solid blue; */
+}
+
+html {
+  background-color: #fffaf7;
+}
+
+.midashi {
+  margin-top: 100px;
+}
+
+.link-sub {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+/* ナビの点の位置（御食事） */
+.here::before {
+  position: absolute;
+  right: 298px;
+  top: 55px;
+}
+
+/* 御食事ページ */
+.dining-about {
+  display: flex;
+  align-items: center;
+}
+
+.dining-about img {
+  width: 450px;
+  margin: 0 50px;
+}
+
+.dining-menu {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px 0;
+}
+
+.dining-menu-name {
+  margin-bottom: 10px;
+  font-size: 2rem;
+  font-family: "Shippori Mincho B1", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.dining-menu-table {
+  font-size: 1.2rem;
+  border-spacing: 1.5rem;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.dining-menu-table tr td {
+  padding: 1rem;
+}
+
+.dining-img-08 {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}

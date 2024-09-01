@@ -1,0 +1,61 @@
+* {
+  /* border: 1px solid blue; */
+}
+
+html {
+  background-color: #fffaf7;
+}
+
+.midashi {
+  margin-top: 100px;
+}
+
+.link-sub {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+/* ナビの点の位置（お知らせ） */
+.here::before {
+  position: absolute;
+  right: 517px;
+  top: 55px;
+}
+
+/* お知らせページ */
+.notice-page {
+  background-color: #fffaf7;
+  color: #1c1919;
+}
+
+.notice-container-page {
+  display: flex;
+  margin-left: 5%;
+  margin-bottom: 100px;
+  border-left: #1c1919 2px solid;
+}
+
+.notice-item-page img {
+  width: 400px;
+  margin-left: 5vw;
+
+}
+
+.notice-item-page {
+  align-self: center;
+}
+
+.notice-item-txt-page {
+  margin-left: 80px;
+}
+
+.notice-item-txt-page time {
+  display: block;
+  margin: 20px 0;
+  font-size: 1.2rem;
+}
+
+.notice-item-txt-page p {
+  display: block;
+  width: 400px;
+}
